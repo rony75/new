@@ -1,0 +1,209 @@
+*{
+    padiding:0px;
+    margin: 0px;
+}
+#header{
+    height: 40vh;
+    max-width: 100%;
+    border:;
+    background-color: rgba(0, 0, 0, 0.42);
+    margin-top: 5px;
+}
+#nav{
+    background-color: rgba(0, 0, 0, 0.42);
+    height: 10vh;
+    max-width: 100%;
+    margin-top: 2px;
+    position: sticky;
+    top:5px;
+}
+#container{
+    /*border:1px solid;*/
+    margin-top: 2px;
+    
+}
+#Right_panel{
+    width: 50%;
+    background-color:;
+    height: 800px;
+    float: left;
+    /*border: 1px solid;*/
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.42);
+    
+}
+#asid-panel{
+   width: 49%;
+    background-color;
+    height: 800px;
+    float: right;
+}
+#container::after{
+    content: " "; display: block; clear: both;
+}
+
+#footer{
+    background-color: ;
+    height: 20vh;
+    margin-top: 2px;
+    border: 1px solid;
+}
+/* layout propati*/
+
+body{
+    background-image:url("/Picture/background-pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: ;
+    
+    background-position: ; */
+    
+}
+#header h1{
+    color: red;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 2px;  
+}
+#header p{
+    color: rgb(220, 220, 220);
+    text-align: center;
+    font-size: 40px;
+}
+#nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: right;
+    padding-right: 10%;
+}
+#nav ul li{
+    background-color: chocolate;
+    /*border:1px solid black;*/
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+    text-align: center;
+    float: left;
+    position: relative;
+    border-radius: 50px 0px 50px 0px;
+    margin-left: 10px;
+    margin-top: 10px;  
+}
+#nav ul li a{
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+#nav ul li a:hover{
+    background-color: white;
+    border-radius: 50px 0px 50px 0px;
+}
+#nav ul li a:hover{
+    color:black;
+}
+/*Submanu style*/
+
+#nav ul ul{
+   position: absolute;
+   display: none;
+   
+}
+#nav ul li:hover > ul{
+    display: block;
+    
+}
+#nav ul ul ul{
+    margin-left: 120px;
+    top:0px
+}
+/* Table 2 button*/
+#Right_panel a button{
+    height: 50px;
+    width: 200px;
+    background-color: royalblue;
+    color: seashell;
+    border-radius: 20%; 
+    margin-left:50%;
+    font-size: 25px;
+    border: 5px solid;
+    border-left-color: rgb(250, 2, 196);
+    border-right-color: rgb(255, 0, 43);
+    
+    /*
+    border-top: rgb(66, 1, 247);
+    border-bottom: cyan;
+    */
+    cursor:pointer;
+}
+#asid-panel{
+    background-color:rgba(0, 0, 0, 0.42);
+}
+#asid-panel p{
+   background-color:#4CAF50;
+   font-size: 20px;
+   
+   
+}
+.form{
+    border: 2px solid black;
+    margin: 30px 30px;
+    height: 70%;
+    
+}
+#asid-panel p.link a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    font-family: Verdana, Arial, Helvetica,;
+      
+}
+#asid-panel p.link {
+    background-color:rgb(73, 158, 47); 
+    height: 50px;
+    padding-left: 10px;
+}
+#asid-panel p.link a:hover{
+    color:#ffd600;
+}
+ #B{
+     max-width: 100%;
+     background-color: rgb(220, 220, 220);
+     height: 70%;
+     text-align: center;
+ }
+.Id{
+   border: 1px solid grey; 
+   height: 70%;
+    margin: 40px;  
+ }
+ .Id form{
+     padding: 70px;
+ }
+ .Id input{
+     height: 20px;
+     border: 2px solid rgb(252, 248, 248);
+     border-radius: 5px;
+     margin: 5px;
+     font-size: 15px;
+     padding: 5px;
+}
+ .Id input[type="button"], input[type="reset"] {
+     width: 100px;
+     height: 30px;
+     cursor: pointer;
+ }
+ select{
+     padding: 10px;
+     border:none;
+     background-color: blueviolet;
+     color: whitesmoke;
+     border-radius: 0px 50px 0px 50px;
+     cursor: pointer;
+ }
+ /*Footer style*/
+ #footer{
+    background-color:rgba(0, 0, 0, 0.42);
+ }
+ 
